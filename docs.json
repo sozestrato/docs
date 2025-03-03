@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
+  "theme": "minimal",
   "name": "FINN AI",
   "colors": {
     "primary": "#007AFF",
@@ -75,7 +75,7 @@
     }
   },
   "logo": {
-    "light": "https://askfinn-next.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75&dpl=dpl_2hfVRSordmgyURttJUhcSktbcojz",
+    "light": "https://drive.google.com/drive/folders/1KI0i5kqShYqOVp2T9j8p8MJ9rgT6URPE",
     "dark": "/logo/finn-dark.svg"
   },
   "navbar": {
