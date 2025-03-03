@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "FINN",
+  "theme": "palm",
+  "name": "FINN AI",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#007AFF",
+    "light": "#3399FF",
+    "dark": "#0056B3"
   },
-  "favicon": "https://askfinn-next.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75&dpl=dpl_2hfVRSordmgyURttJUhcSktbcojz",
+  "favicon": "https://finn-ai.com/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -57,45 +57,49 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Home",
+          "href": "https://finn-ai.com",
+          "icon": "home"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://discord.gg/finn-ai",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://blog.finn-ai.com",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/finn-light.svg",
+    "dark": "/logo/finn-dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@finn-ai.com"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/sozestrato/finn-ai-docs"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.finn-ai.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/finn-ai",
+      "github": "https://github.com/sozestrato/finn-ai-docs",
+      "linkedin": "https://linkedin.com/company/finn-ai"
     }
   }
 }
