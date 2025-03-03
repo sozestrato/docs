@@ -75,7 +75,7 @@
     }
   },
   "logo": {
-    "light": "/logo/finn-light.svg",
+    "light": "https://askfinn-next.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75&dpl=dpl_2hfVRSordmgyURttJUhcSktbcojz",
     "dark": "/logo/finn-dark.svg"
   },
   "navbar": {
