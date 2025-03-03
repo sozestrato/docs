@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "minimal",
+  "theme": "mint",
   "name": "FINN AI",
   "colors": {
     "primary": "#007AFF",
