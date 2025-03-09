@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "FINN AI",
   "colors": {
-    "primary": "#007AFF",
-    "light": "#3399FF",
-    "dark": "#0056B3"
+    "primary": "#32586D",
+    "light": "#32586D",
+    "dark": "#293342"
   },
   "favicon": "https://finn-ai.com/favicon.ico",
   "navigation": {
