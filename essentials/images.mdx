@@ -1,59 +1,58 @@
 ---
-title: 'Images and Embeds'
-description: 'Add image, video, and other HTML elements'
-icon: 'image'
+title: 'Support & Contact'
+description: 'Get help and connect with the FINN AI support team.'
+icon: 'mail'
 ---
 
-<img
-  style={{ borderRadius: '0.5rem' }}
-  src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
-/>
+## Need Help? Contact FINN AI Support
 
-## Image
+If you encounter any issues while using FINN AI or have questions about its features, we’re here to help.
 
-### Using Markdown
+### How to Get Support
 
-The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
+<AccordionGroup>
+  <Accordion icon="envelope" title="Submit a Support Request">
+    You can submit a support request through our [Support Portal](/docs/support). Please provide details about your issue, including screenshots if applicable.
+  </Accordion>
+  <Accordion icon="bug" title="Report a Bug">
+    Found a technical issue? Report it through our [Bug Report Form](/docs/support/bug-report). Our team will investigate and work on a fix.
+  </Accordion>
+  <Accordion icon="users" title="Join the Community">
+    Connect with other traders and investors using FINN AI in our [Community Forum](/docs/community). Share insights, ask questions, and discuss market trends.
+  </Accordion>
+</AccordionGroup>
 
-```md
-![title](/path/image.jpg)
-```
+### Frequently Asked Questions
 
-Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+Before reaching out, check our [FAQ section](/docs/faq) to see if your question has already been answered.
 
-### Using Embeds
+## Contact Us
 
-To get more customizability with images, you can also use [embeds](/writing-content/embed) to add images
+<AccordionGroup>
+  <Accordion icon="headset" title="Live Support">
+    For urgent issues, reach out to our live support team during business hours via chat on our website.
+  </Accordion>
+  <Accordion icon="at" title="Email Support">
+    You can email us at **support@finnai.com** for assistance with your account, features, or troubleshooting.
+  </Accordion>
+  <Accordion icon="twitter" title="Follow Us on Twitter">
+    Stay updated with the latest news and insights by following us on [Twitter](https://twitter.com/finn_ai).
+  </Accordion>
+</AccordionGroup>
 
-```html
-<img height="200" src="/path/image.jpg" />
-```
+## Additional Resources
 
-## Embeds and HTML elements
-
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/4KzFe50RQkQ"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  style={{ width: '100%', borderRadius: '0.5rem' }}
-></iframe>
-
-<br />
-
-<Tip>
-
-Mintlify supports [HTML tags in Markdown](https://www.markdownguide.org/basic-syntax/#html). This is helpful if you prefer HTML tags to Markdown syntax, and lets you create documentation with infinite flexibility.
-
-</Tip>
-
-### iFrames
-
-Loads another HTML page within the document. Most commonly used for embedding videos.
-
-```html
-<iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
-```
+<CardGroup>
+  <Card title="FAQ" icon="question-circle" href="/docs/faq">
+    Check common questions and answers about FINN AI.
+  </Card>
+  <Card title="Market Insights Disclaimer" icon="exclamation-circle" href="/docs/market-insights-disclaimer">
+    Understand the scope of FINN AI’s insights.
+  </Card>
+  <Card title="Legal & Compliance" icon="balance-scale" href="/docs/legal">
+    Review our terms, privacy policies, and disclaimers.
+  </Card>
+  <Card title="Latest Updates" icon="newspaper" href="/docs/updates">
+    Stay up to date with the latest features and improvements.
+  </Card>
+</CardGroup>
