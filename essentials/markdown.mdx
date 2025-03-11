@@ -1,88 +1,76 @@
 ---
-title: 'Markdown Syntax'
-description: 'Text, title, and styling in standard markdown'
-icon: 'text-size'
+title: 'Frequently Asked Questions'
+description: 'Find answers to common questions about FINN AI.'
+icon: 'Question'
 ---
 
-## Titles
+## Frequently Asked Questions (FAQs)
 
-Best used for section headers.
+Here are some of the most common questions users have about FINN AI.
 
-```md
-## Titles
-```
+### General Questions
 
-### Subtitles
+<AccordionGroup>
+  <Accordion icon="info-circle" title="What is FINN AI?">
+    FINN AI is an AI-powered assistant that provides **real-time market insights** for stocks, crypto, options, and more. It is designed to help traders and investors analyze market trends but does not provide financial advice.
+  </Accordion>
+  <Accordion icon="globe" title="Do I need to install anything to use FINN AI?">
+    No, FINN AI is a **web-based AI agent**. Simply visit the website, log in, and start using it—no downloads or installations required.
+  </Accordion>
+</AccordionGroup>
 
-Best use to subsection headers.
+### Market Insights & Features
 
-```md
-### Subtitles
-```
+<AccordionGroup>
+  <Accordion icon="chart-line" title="How does FINN AI generate insights?">
+    FINN AI analyzes **real-time market data**, financial news, and historical trends using AI models. It provides insights based on market conditions but does not make predictions or guarantee outcomes.
+  </Accordion>
+  <Accordion icon="database" title="Where does FINN AI get its market data from?">
+    FINN AI pulls data from **trusted financial sources**, including stock market APIs, cryptocurrency exchanges, and macroeconomic indicators.
+  </Accordion>
+  <Accordion icon="brain" title="Can FINN AI execute trades for me?">
+    No, FINN AI does **not execute trades** or manage portfolios. It provides market insights to help you make informed decisions.
+  </Accordion>
+</AccordionGroup>
 
-<Tip>
+### Financial & Legal
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+<AccordionGroup>
+  <Accordion icon="exclamation-triangle" title="Does FINN AI provide financial advice?">
+    No, FINN AI provides **market insights but is not a financial advisor**. Users should always do their own research or consult with a licensed professional before making investment decisions.
+  </Accordion>
+  <Accordion icon="balance-scale" title="Is FINN AI compliant with financial regulations?">
+    Yes, FINN AI operates within compliance guidelines but is **not a registered financial institution or brokerage**.
+  </Accordion>
+  <Accordion icon="user-shield" title="How is my data protected?">
+    FINN AI follows **strict privacy policies** and does not store or sell sensitive financial data. For more details, visit our [Privacy Policy](/docs/legal/privacy).
+  </Accordion>
+</AccordionGroup>
 
-</Tip>
+### Troubleshooting & Support
 
-## Text Formatting
+<AccordionGroup>
+  <Accordion icon="bug" title="I received an error message. What should I do?">
+    If you encounter an issue, try refreshing the page or checking your internet connection. If the problem persists, contact **support** for assistance.
+  </Accordion>
+  <Accordion icon="envelope" title="How can I contact support?">
+    You can reach out through our [Support Page](/docs/support) for any technical or account-related inquiries.
+  </Accordion>
+</AccordionGroup>
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
+## Still Have Questions?
 
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
-
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
-
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
-
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
-
-## Linking to Pages
-
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
-
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
-
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
-
-## Blockquotes
-
-### Singleline
-
-To create a blockquote, add a `>` in front of a paragraph.
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
+<CardGroup>
+  <Card title="Contact Support" icon="headset" href="/docs/support">
+    Need help? Get in touch with our support team.
+  </Card>
+  <Card title="Legal & Compliance" icon="balance-scale" href="/docs/legal">
+    Review our terms, privacy policies, and disclaimers.
+  </Card>
+  <Card title="Market Insights Disclaimer" icon="exclamation-circle" href="/docs/market-insights-disclaimer">
+    Learn about the scope of FINN AI’s insights.
+  </Card>
+  <Card title="Latest Updates" icon="newspaper" href="/docs/updates">
+    Stay up to date with the latest improvements and features.
+  </Card>
+</CardGroup>
