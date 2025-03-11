@@ -63,9 +63,9 @@
           "icon": "home"
         },
         {
-          "anchor": "Community",
+          "anchor": "X",
           "href": "https://discord.gg/finn-ai",
-          "icon": "discord"
+          "icon": "x"
         },
         {
           "anchor": "Blog",
@@ -92,7 +92,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Talk to Finn",
       "href": "https://dashboard.finn-ai.com"
     }
   },
