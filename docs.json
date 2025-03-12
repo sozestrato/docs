@@ -18,19 +18,16 @@
             "pages": [
               "introduction",
               "quickstart",
-              "development",
-              "legal"
+              "development"
             ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/faq",
+              "essentials/updates",
+              "essentials/support",
+              "essentials/legal"
             ]
           }
         ]
@@ -54,26 +51,21 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Home",
-          "href": "https://finn-ai.com",
-          "icon": "home"
-        },
-        {
-          "anchor": "X",
-          "href": "https://discord.gg/finn-ai",
-          "icon": "x"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://blog.finn-ai.com",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Home",
+        "href": "https://finn-ai.com",
+        "icon": "home"
+      },
+      {
+        "anchor": "X",
+        "href": "https://discord.gg/finn-ai",
+        "icon": "x"
+      }
+    ]
   },
   "logo": {
     "light": "https://github.com/sozestrato/docs/blob/main/logo/DARK%20BLUE%20(1).png?raw=true",
