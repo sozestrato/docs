@@ -36,10 +36,7 @@
         "tab": "API Reference (Coming Soon)",
         "groups": [
           {
-            "group": "API Documentation",
-            "pages": [
-              ""
-            ]
+            "group": "API Documentation"
           },
           {
             "group": "Endpoint Examples",
