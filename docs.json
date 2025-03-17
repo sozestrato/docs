@@ -33,12 +33,12 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "API Reference (Coming Soon)",
         "groups": [
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              ""
             ]
           },
           {
