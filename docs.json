@@ -33,8 +33,9 @@
         ]
       },
       {
-        "tab": "API Reference (Coming Soon)"
-          },
+        "tab": "API Reference (Coming Soon)",
+        "comingSoon": true
+      }
           {
             "group": "Endpoint Examples",
             "pages": [
