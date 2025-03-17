@@ -36,16 +36,6 @@
         "tab": "API Reference (Coming Soon)",
         "comingSoon": true
       }
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          }
-        ]
-      }
     ]
   },
   "global": {
