@@ -33,9 +33,10 @@
         ]
       },
       {
-        "tab": "API Reference (Coming Soon)",
-        "comingSoon": true
-      }
+  "tab": "API Reference (Coming Soon)",
+  "comingSoon": true,
+  "href": null
+}
     ]
   },
   "global": {
